@@ -5,8 +5,8 @@ const hamburger = document.querySelector(".hamburger");
 const navigation = document.querySelector("#navigation-principale");
 const navigationLinks = document.querySelectorAll(".nav-links a");
 const whatsappNumber = "22655757299";
-const supabaseUrl = "https://hqbeyovlitndojowznmn.supabase.co";
-const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhxYmV5b3ZsaXRuZG9qb3d6bm1uIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg2MzIzNjQsImV4cCI6MjEwNDIwODM2NH0.fx_-Owqh3WaAfXwVuy9hry2VLKXykAzCLsqPj1a4omU";
+const supabaseUrl = "https://grkkueowzqruipqxqtbv.supabase.co";
+const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdya2t1ZW93enFydWlwcXhxdGJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc0NTU2MTksImV4cCI6MjA3MzAzMTYxOX0.s5QL1DWac0d4HCcKAT91ROhpmzEgKjk7qnGOnp2AES0";
 const supabaseClient = window.supabase && !supabaseUrl.startsWith("VOTRE_")
     ? window.supabase.createClient(supabaseUrl, supabaseAnonKey)
     : null;
