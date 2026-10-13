@@ -1,4 +1,4 @@
-const supabaseUrl = "https://grkkueowzqruipqxqtbv.supabase.co/rest/v1/".replace(/\/+$/, "");
+const supabaseUrl = "https://grkkueowzqruipqxqtbv.supabase.co".replace(/\/+$/, "");
 const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdya2t1ZW93enFydWlwcXhxdGJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc0NTU2MTksImV4cCI6MjA3MzAzMTYxOX0.s5QL1DWac0d4HCcKAT91ROhpmzEgKjk7qnGOnp2AES0";
 const supabaseClient = window.supabase && !supabaseUrl.startsWith("VOTRE_")
     ? window.supabase.createClient(supabaseUrl, supabaseAnonKey, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true } })
